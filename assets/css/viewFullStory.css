@@ -1,0 +1,109 @@
+
+/*==================================View FUll Story Page===================================*/
+
+
+
+/*Importing Roboto Font from Google Front.*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-star
+{
+    color: #FFDF00;
+}
+.fa-tags:hover
+{
+    color: #f44242;
+}
+
+.fullStory
+{
+    background: white;
+    margin: 5rem;
+    color: black;
+    padding: 40px;
+}
+
+
+#fullStory-Taglist>a
+{
+    margin: 1px;
+    padding: 2px;
+    color: black;
+    background: #39739d;
+}
+#fullStory-Taglist>a:hover
+{
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.img-thumbnail
+{
+    width: 100%;
+    max-height: 400px;
+}
+.fullStory > h2,p,#fullStory-Taglist,#fullStory-Rating
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fullStory > .title
+{
+    font-family:'Do Hyeon', sans-serif;
+    border-bottom: 1px solid #c99789;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #708090;
+    font-weight: 700;
+}
+
+
+.description
+{
+    /*color: #fefbd8;*/
+    line-height: 1.5rem;
+    font-size:large;
+}
+
+
+.description::first-letter
+{
+    font-size: 300%;
+    font-weight: bold;
+    color: #8b9dc3;
+}
+
+.publishedAt
+{
+    color: #64a1f4;
+    font-size: small;
+}
+
+#modifyNews
+{
+    text-align: right;
+}
+#modifyNews>a
+{
+    /*background: #e74c3c;*/
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    /*color: black;*/
+    padding: 10px;
+    margin: 4px;
+}
+

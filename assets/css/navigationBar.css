@@ -1,0 +1,34 @@
+
+/*Importing Roboto Font from Google Front.*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/*----------------Navigation Bar--------------------*/
+
+.navbar
+{
+    box-sizing: border-box;
+    height:50px;
+    background-color: #149884;
+    border: 1px solid rgba(0,0,0,0);
+    text-transform: capitalize;
+}
+
+.navbar li:hover
+{
+    border: 1px solid #4c4c4c;
+    filter: blur(0.5px);
+    font-weight: bold;
+    margin:2px;
+}
+
+.navbar img
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+.fa-phoenix-framework:hover
+{
+    color:rgba(148,41,30,1);
+}
